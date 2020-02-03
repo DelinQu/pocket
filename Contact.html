@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Are you ready for the marathon?</title>
+	<link rel="stylesheet" type="text/css" href="styles/basic.css">
+</head>
+<body id="contact1">
+<header id="contact2">
+	<img src="images/logo.jpg" width="640">
+	<nav>
+		<ul>
+			<li><a href="Home.html"> Home</a></li>
+			<li><a href="About.html"> About</a></li>
+			<li><a href="Photos.html"> Photos</a> </li>   
+			<li><a href="Music.html"> Music</a> </li>
+			<li><a href="Schedule.html"> Schedule</a> </li>
+			<li><a href="Contact.html"> Contact</a> </li>
+		</ul>
+	</nav>
+</header>
+<article>
+	<h1>Contact The Team</h1>
+
+	<form method="post" action="submit.html">
+	<fieldset>
+		<p>
+			<label for="name">Name:</label>
+			<input type="post" id="name" name="name" placeholder="Your name" required="required">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Your email address" required="required"> 
+		</p>
+		<p>
+			<label for="message">Message:</label>
+			<textarea cols="45" rows="7" id="message" name="message" require="require" placeholder="Write your message here."></textarea>
+		</p>
+		<input  id="submit" type="submit" value="Send">
+	</fieldset>
+	</form>
+</article>
+	<script src="scriptes/global.js"></script>
+</body>
+</html>

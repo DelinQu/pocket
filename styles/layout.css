@@ -1,0 +1,228 @@
+section,header,article,nav{
+	display: block;
+} 
+*{/*清除内外边距*/
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 1em 16%;
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat;
+	background-size: 1600px 800px;
+}
+header{
+	background-repeat: repeat-x;
+	background-position: top right;
+	border:1px solid black;
+	background-size: 405px 382px;
+	border-bottom-width: 0;
+	border-radius: 5px;
+	display: hidden;
+}
+header img{
+	display: block;
+}
+#home1{
+	background-image: url("../images/background2.jpg");
+}
+#home2{
+	background-image: url("../images/run logo.jpg");
+}
+#about1{
+	background-image: url("../images/background4.jpg");
+}
+#about2{
+	background-image: url("../images/about2.jpg");
+}
+#photos1{
+	background-image: url("../images/background3.jpg");
+}
+#photos2{
+	background-image: url("../images/photos2.jpg");
+}
+#schedule1{
+	background-image: url("../images/background6.jpg");
+}
+#schedule2{
+	background-image: url("../images/schedule2.jpg");
+}
+#contact1{
+	background-image: url("../images/background8.jpg");
+}
+#contact2{
+	background-image: url("../images/contact2.jpg");
+}
+#music1{
+	background-image: url("../images/background1.jpg");
+}
+#music2{
+	background-image: url("../images/music2.jpg");
+}
+#tip{
+	list-style-position: inside;
+}
+header nav{
+	border:0.1em solid;
+	border-top: 0;
+	padding-left: 10%;
+	border-radius: 3px;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left: 0.1em solid;
+}
+#photoGallery li{
+	list-style-type: none;
+	display: inline;
+	
+}
+#photoGallery img{
+	display: inline-block;
+	 width:100px;
+	 height:70px; 
+}
+header nav li{
+	display: inline;
+	border-radius: 3px;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: 0.7em 2em;
+	border-right: 0.1em solid;
+}
+article{
+	border:0.1em solid black;
+	border-top: 0;
+	padding: 2em 10%;
+	line-height: 1.80em;
+	border-radius: 5px;
+}
+article img{
+	border:0.1em solid;
+	outline: 0.1em solid;
+}
+#slideShow{
+	width: 380px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+	border-radius: 5px;
+}
+#musicList li{
+	list-style-type: none;
+	padding:55px;
+	height:200px; 
+	width:850px;
+	color:	#191970;
+	font-family: "幼圆";
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	border:1px solid white;
+	border-radius: 100px;
+	overflow: hidden;
+	float: left;
+}
+.box1 img{
+	width: 200px;
+	height: 200px;
+}
+.box2{
+	height: 200px;
+	width: 500px;
+	float: right;
+}
+.box2 h2{
+	font-family: "幼圆";
+}
+.animation1{	
+	width: 200px;
+	height: 200px;
+	border:1px solid white;
+	border-radius: 100px;
+	overflow: hidden;
+	float: left;
+	animation:frame 6s  linear paused;
+}
+.animation2{	
+	width: 200px;
+	height: 200px;
+	border:1px solid white;
+	border-radius: 100px;
+	overflow: hidden;
+	float: left;
+	animation:frame 6s  linear infinite;
+}
+.animation1 img,.animation2 img{
+	width: 200px;
+	height: 200px;
+
+}
+@keyframes frame{
+	0% {transform:rotate(0deg); }
+	20%{transform: rotate(72deg);}
+	40%{transform: rotate(144deg);}
+	60%{transform: rotate(216deg);}
+	80%{transform: rotate(288deg);}
+	100%{transform: rotate(360deg);}
+}
+
+td{
+	padding: 0.8em 3em;
+	border-radius: 4px;
+}
+th{
+	color: #edc;
+	background-color: #455;
+	border-radius: 5px;
+}
+tr td{
+	color: #223;
+	font-weight: bold;
+}
+.odd{
+	background-color: 	#6A5ACD;
+}
+.even{
+	background-color:rgb(249,181,48);
+}
+.styleover{
+	padding: 0.8em 3em;
+	color:	#4B0082;
+	background:#ADD8E6;
+}
+label{
+	display: block;
+}
+fieldset{
+	border:0;
+}
+input{
+	height: 18px;
+	border-radius: 5px;
+	padding: 8px;
+	border:1px solid white;
+	line-height: 18px;
+}
+textarea{
+	border-radius: 5px;
+}
+#submit{
+	background-color: #9370DB;
+	font-weight: bold;
+	width: 65px;
+	height: 40px;
+	border-radius: 5px;
+	padding: 8px;
+	border:1px solid white;
+	line-height: 18px;
+}
+input:hover{
+	transform: scale(1.1);
+}
